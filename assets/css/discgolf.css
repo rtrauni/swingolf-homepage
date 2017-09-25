@@ -1,15 +1,31 @@
 footer {
-    background: #000000;
-    background: -moz-linear-gradient(-45deg, #000000 0%, #336799 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #000000), color-stop(100%, #336799));
-    background: -webkit-linear-gradient(-45deg, #000000 0%, #336799 100%);
-    background: -o-linear-gradient(-45deg, #000000 0%, #336799 100%);
-    background: -ms-linear-gradient(-45deg, #000000 0%, #336799 100%);
-    background: linear-gradient(-45deg, #000000 0%, #336799 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#336799, GradientType=1);
+    background: #47ad7b;
+    background: -moz-linear-gradient(-45deg, #47ad7b 0%, #369c6a 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #47ad7b), color-stop(100%, #369c6a));
+    background: -webkit-linear-gradient(-45deg, #47ad7b 0%, #369c6a 100%);
+    background: -o-linear-gradient(-45deg, #47ad7b 0%, #369c6a 100%);
+    background: -ms-linear-gradient(-45deg, #47ad7b 0%, #369c6a 100%);
+    background: linear-gradient(-45deg, #47ad7b 0%, #369c6a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#47ad7b, endColorstr=#369c6a, GradientType=1);
 }
 section#about {
     position: relative;
     background: url(../img/freeze/bk-freeze-ga-discgolf.jpg);
 }
-
+section#reviews {
+    position: relative;
+    background: url(../img/freeze/bk-freeze-ga-discgolf.jpg);
+}
+section#getApp {
+    position: relative;
+    background: url(../img/freeze/bk-freeze-ga-discgolf.jpg);
+}
+header .navbar-default.scrolled ul.navbar-nav li a:hover {
+    color: #47ad7b;
+}
+header .navbar-default.scrolled ul.navbar-nav li a {
+    color: #47ad7b;
+}
+header .navbar-default.scrolled {
+    border-bottom: 3px solid #47ad7b;
+}
